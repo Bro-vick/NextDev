@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .container {
+    @apply px-2 m-auto;
+  }
+
+  li {
+    @apply list-none px-2 text-sm font-mono;
+  }
+}
+
+body {
+  @apply bg-black;
+}
